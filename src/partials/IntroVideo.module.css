@@ -68,7 +68,7 @@
     }
 
     .outerWrapper .innerWrapper{
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         width: 100%;
         background-color: #ebedef;
