@@ -1,0 +1,40 @@
+.section{
+    padding-top: 0;
+}
+
+.wrapper h1{
+    font-size: 44px;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    word-spacing: -1px;
+}
+
+.wrapper h1 span:first-child{
+    background: linear-gradient(to right, #FD7B33, #C41E3A);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.wrapper h5{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: "Gelion Regular";
+}
+
+
+  @media (max-width: 991.98px) {
+    .wrapper h1{
+        font-size: 26px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .wrapper h5{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+  }
+  

@@ -1,0 +1,49 @@
+
+
+.section{
+    padding-top: 10px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.wrapper .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 100%;
+}
+
+
+
+.wrapper .box img{
+    height: 100px;
+}
+
+
+
+
+
+
+@media (max-width: 991.98px) {
+    .wrapper{ 
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: wrap;
+        max-width: 440px;
+      }
+      
+      .box {
+        flex: 1 1 calc(50% - 20px);
+        box-sizing: border-box;
+      }
+  }
+  

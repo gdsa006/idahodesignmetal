@@ -1,0 +1,100 @@
+.whyusCard {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+    -webkit-box-shadow: 0 8px 25px rgba(0, 0, 0, .1);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+  }
+  
+  .whyusCard .video {
+    flex: 0 0 45%;
+    height: 295px;
+    border-radius: 8px 0 0 8px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .whyusCard .video video{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .whyusCard .desc {
+    flex: 0 0 55%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+  }
+  
+  .whyusCard .desc .title{
+    margin: 20px 50px 0;
+  }
+
+  .whyusCard .desc .title h3{
+    color: #000000;
+    font-size: 26px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .whyusCard .desc .text{
+    margin: 0  50px 20px;
+  }
+
+  .whyusCard .desc .text p{
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .whyusCard .desc .text p span{
+    background: linear-gradient(to right, #FD7B33, #C41E3A);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+
+  @media (max-width: 991.98px) {
+    .whyusCard {
+      flex-direction: column;
+    }
+
+    .whyusCard:last-child{
+      margin-bottom: 0;
+    }
+
+    .whyusCard .video {
+      flex:  auto
+    }
+
+    .whyusCard .video video{
+      width: 100%;
+    }
+
+    .whyusCard .video video{
+      position: absolute;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .whyusCard .desc .title{
+      margin: 20px 20px 0;
+    }
+
+    .whyusCard .desc .text{
+      margin: 0  20px 20px;
+    }
+
+    .whyusCard .video {
+      border-radius: 8px 8px 0 0;
+      height: 215px;
+    }
+
+    .whyusCard .desc .title h3{
+      font-size: 23px;
+    }
+
+  }
+  

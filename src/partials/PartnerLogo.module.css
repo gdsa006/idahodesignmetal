@@ -1,0 +1,25 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.logo img {
+    height: 100px;
+}
+
+
+
+@media (max-width: 991.98px) {
+    .logo {
+        width: auto;
+    }
+
+    .logo img {
+        height: 50px;
+    }
+  }
+  

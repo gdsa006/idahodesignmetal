@@ -1,0 +1,14 @@
+.header{
+    padding: 20px 0;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 120px;
+    height: auto;
+}
